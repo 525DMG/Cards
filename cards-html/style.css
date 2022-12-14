@@ -212,6 +212,12 @@ a:hover {
     color: #a7a7a7d2;
 }
 
+.social-list i:hover {
+    font-size: 2rem;
+    color: red;
+}
+
+
 .btn-temp {
     display: flex;
     justify-content: center;
@@ -233,6 +239,78 @@ a:hover {
     font: 600;
     color: red;
     background: rgba(255, 255, 255, 0.6);
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    margin: 15px 10px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    color: #f9f9f9;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#form {
+    position: relative;
+}
+
+#form #email {
+    width: 300px;
+    background: #292929;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#form .inputBox {
+    position: relative;
+
+}
+
+#text {
+    display: block;
+    color: #000;
+    font-weight: 300;
+    font-style: italic;
+    padding: 5px;
+}
+
+#form.invalid .inputBox:before {
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    background: url('https://lh3.googleusercontent.com/SrmBHpQbRI0L8WX3Bc0MAcYi1t9yLRIBTXWJJr_kz_0BcQ_Ve1WYATb-0exvVD5Xuhb_LcBki6vbDYH_pMggQzMOJUeci9xTfkWwzl4iaK0OERGiYHSh1Ia63M_UBPCLTjGIEHh1Nw=w2400');
+    background-size: cover;
+    z-index: 1000;
+}
+
+#form.valid .inputBox:before {
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    background: url('https://lh3.googleusercontent.com/CJzZc-OkdkXiaGz9Aw2hv6qwGcf7jV19ZCHs-yj_0S0ptjRt9D6bOyGoO46DtDL-pjkD3-sTPN6_J8IOxvo2r-z89IuhCsAAGEUNQWqGPlhIuWLL3-skB9GctUeAKN2oWiTWMd2HeQ=w2400');
+    background-size: cover;
+    z-index: 1000;
 }
 
 @media (max-width: 1350px) {
